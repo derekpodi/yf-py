@@ -2,9 +2,13 @@
 
 Produce a quick pie chart of buy/sell consensus of a stock.
 
-Info taken from yahoo finance api (yfinance); investment grades counted and presented via Plotly.
-
 Implements a python script as a GUI via Gooey.
+
+```
+$python3 yf.py 
+```
+
+Data taken from yahoo finance api (yfinance). Investment grade ratios are transformed via Pandas and presented via Plotly.
 
 Optional verbose feature to produce line graph via matplotlib - prints recent close prices to the command line.
 
@@ -17,3 +21,5 @@ Can use script directly from the command line (with or without user input) in th
 $ python3 yf.py <Stock Ticker>
 ```
 Omission of the stock ticker will prompt user input.
+
+* Must uncomment block in python script under main() *
