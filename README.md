@@ -1,4 +1,4 @@
-# yf-py
+# yf.py
 
 Produce a quick pie chart of buy/sell consensus of a stock.
 
